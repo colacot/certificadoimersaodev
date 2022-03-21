@@ -1,0 +1,86 @@
+body{
+  background: #656565;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  background: #000000;
+  color:#555555;
+  margin: 44px;
+  padding: 54px;
+}
+
+.cabecalho {
+  display:flex;
+  justify-content:space-between;
+}
+
+.perfil{
+  display: flex;
+  }
+
+.perfil-foto{
+  border-radius: 400px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  max-height: 160px;
+}
+
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1{
+  font-weight:600;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight:100;
+  font-size: 22px;
+}
+
+.tema button {
+  align-self: flex-end;
+  background:#aaaaaa;
+  border-radius: 16px;
+  box-shadow: 6px 6px 6px #0E1D2F; 
+  font-size: 14px;  
+  font-weight:400px;
+  padding:8px 16px;
+}
+
+main{
+  background:#aaaaaa;
+  margin: 50px;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F; 
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight:700;
+  font-size:24px;
+}
+.projetos-item {
+  list-style-type:none;
+  font-weight:400;
+  font-size: 18px;
+  padding: 5px;
+}
+.projetos-item a{
+  color: black;
+  text-decoration:none;
+}
+
+.dark {
+
+}
+.container .dark {
+ background:#aaaaaa;
+}
